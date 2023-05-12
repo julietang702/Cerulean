@@ -10,3 +10,21 @@ body,
 html {
   height: 100%;
 }
+.select-container {
+  margin-top: 10px;
+}
+
+#map,
+body,
+html {
+  height: 75%;
+  width: 75%
+}
+
+#years,
+body,
+html {
+  position: right ;
+  top: 10px;
+  left: 10px;
+}
