@@ -17,15 +17,9 @@
         <div id="map" style="height: 500px;"></div>
             <select id="years">  
                 <option value="">All Years</option>
-                <option value="1950">1950</option>
-                <option value="1951">1951</option>
-                <option value="1952">1952</option>
-                <option value="1953">1953</option>
-                <!-- Add more years as needed -->
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
+                
             </select>
-            <button id="update-btn" onclick="updateHeatMap()">Update</button>
+            <button id="update-btn" onSubmit="updateHeatMap()">Update</button>
             <script>
             document.getElementById("update-btn").addEventListener("click", function() {
               var year = document.getElementById("years").value;
