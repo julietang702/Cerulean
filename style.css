@@ -20,7 +20,13 @@ html {
   height: 75%;
   width: 75%
 }
+h1, 
+header, 
+html
+{
+  text-align: center;
 
+}
 #years,
 body,
 html {

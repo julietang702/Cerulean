@@ -12,20 +12,16 @@
     <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<header>
+    <h1> Tornado Heatmap 1950-2022 </h1>
+</header>
 <body>
     <center>
         <div id="map" style="height: 500px;"></div>
             <select id="years">  
-                <option value="">All Years</option>
-                
+             
             </select>
             <button id="update-btn" onSubmit="updateHeatMap()">Update</button>
-            <script>
-            document.getElementById("update-btn").addEventListener("click", function() {
-              var year = document.getElementById("years").value;
-              updateHeatMap(year);
-            });
-            </script>
     </center>
     <script type="text/javascript" src="app.js"></script>
 
